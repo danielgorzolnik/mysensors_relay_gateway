@@ -6,14 +6,14 @@
 #define eeprom_offset 100
 
 //temperature sensors pins
-#define relay_1_pin 6
-#define relay_2_pin 7
-#define relay_3_pin 8
-#define relay_4_pin 9
-#define relay_5_pin 10
-#define relay_6_pin 11
-#define relay_7_pin 12
-#define relay_8_pin 13
+#define relay_1_pin 13
+#define relay_2_pin 12
+#define relay_3_pin 11
+#define relay_4_pin 10
+#define relay_5_pin 9
+#define relay_6_pin 8
+#define relay_7_pin 7
+#define relay_8_pin 6
 
 byte relay_array[relay_count] = {
   relay_1_pin,
